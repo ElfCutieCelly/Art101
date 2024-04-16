@@ -11,14 +11,14 @@ p{
   scroll-margin-inline-end: 10px;
 
 }
-# content{
+#content{
   background-color: #ffbbd5;
   width:5000px;
   min-height: 300px;
   padding:10px;
   margin: 10px;
   border:solid 1px #dc3676
-  font-size: 20px;
+  font-size20px;
 }
 .minor-section {
     padding: 10px;
