@@ -34,3 +34,10 @@ h1,h2,h3{
   border: solid 1px #dc3676;
   background-color: #ffbbd5;
 }
+
+.lowever-section{
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #dc3676;
+  background-color: #ffbbd5;
+}
