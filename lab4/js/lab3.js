@@ -31,7 +31,3 @@
             //For the third + fourth incorrect guess: arms
             //For the fifth + six incorrect guess: legs
     //If you guess incorrectly six times before guessing the selected word: YOU LOSE!
-
-    <ul>
-			<li><a href="../index.html">Back to Structure</a></li>
-		</ul>
