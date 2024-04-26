@@ -5,8 +5,8 @@
 //
 
 // Define Variables
-make= "BMW";
-modle="Cancer";
+make= "KIA";
+modle="Soul";
 color="Rose Gold";
 year=1995;
 
