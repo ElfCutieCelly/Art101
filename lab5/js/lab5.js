@@ -6,7 +6,7 @@
 
 // Define Variables
 make= "KIA";
-modle="Soul";
+model="Soul";
 color="Rose Gold";
 year=1995;
 
