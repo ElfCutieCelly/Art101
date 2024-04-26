@@ -16,7 +16,7 @@ h1,h2,h3{
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
-  margin: 10px;
+  margin: 12px;
   padding: 10px;
   border: solid 1px #dc3676;
   background-color: #fffee3;
@@ -24,14 +24,14 @@ h1,h2,h3{
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
-  padding: 10px;
+  padding: 12px;
   margin-bottom: 10px;
   border: solid 1px #dc3676;
   background-color: #ffbbd5;
 }
 
 .minor-section{
-  padding: 10px;
+  padding: 12px;
   margin-bottom: 10px;
   border: solid 1px #dc3676;
   background-color: #ffbbd5;
