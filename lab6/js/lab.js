@@ -22,6 +22,6 @@ myMainRide = {
 document.writeln("Kinds of Transportations I use: ",myTransport,"</br>");
 //this little trick allows use to write ab objecrt to the document
 document.writeln(" My main Ride: <pre>,"
-    .stringify(myMainRide, null, '\t'),"</pre>");
+    JSON.stringify(myMainRide, null, '\t'),"</pre>");
 
     
