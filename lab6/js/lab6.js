@@ -10,4 +10,5 @@ myMainRide = {
     }
   }
 
-  document.writeln(" My main Ride: ",myMainRide,"</br?>");
+  document.writeln(" My main Ride: <pre>",
+        JSON.stringify(myMainRide, null, '\t'),"</br?>");
