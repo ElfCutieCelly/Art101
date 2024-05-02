@@ -4,12 +4,9 @@
     //
 //
 
-sortUserName = {
-    CellyHernandez
-}
 //sortuserName - a function that takes user input and sorts the letters
 // of their name
-function sortUserName() {
+function sortUserName(CellyHernandez) {
     var userName = window.promt("Hi. Please tell me your name so I can fix it");
     console.log("userName=",userName);
     //split string array
