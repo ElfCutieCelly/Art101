@@ -4,6 +4,9 @@
     //
 //
 
+sortUserName = {
+    CellyHernandez
+}
 //sortuserName - a function that takes user input and sorts the letters
 // of their name
 function sortUserName() {
