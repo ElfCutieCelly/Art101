@@ -8,11 +8,11 @@
 function sortUserName(){
     let userName = window.promt("What's your name?");
     console.log(userName);
-    //sort the array
+    //sort and return users name
     let sortedName = userName.split('').sort().join('');
     console.log(sortedName);
     //return sorted name
-    return nameSorted;
+    return sortedName;
 };
 
 //output
