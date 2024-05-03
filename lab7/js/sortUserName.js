@@ -11,8 +11,8 @@ function sortUserName() {
     //split string to array
     let nameArray = userName.split('');
     console.log("nameArray=", nameArray);
-        //sort the array
-        let nameArraySort = nameArray.sort();
+    //sort the array
+     let nameArraySort = nameArray.sort();
     console.log("nameArraySort=", nameArraySort);
     //join array back to a string
     let nameSorted=nameArraySort.join("");
