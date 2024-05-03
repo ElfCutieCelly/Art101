@@ -8,8 +8,6 @@
 function sortUserName(){
     let userName = window.promt("What's your name?");
     console.log(userName);
-    var nameArray = userName.split('');
-    console.log("nameArray =", nameArray);
     //sort the array
     let sortedName = userName.split('').sort().join('');
     console.log(sortedName);
