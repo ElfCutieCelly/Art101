@@ -5,24 +5,17 @@
 //
 
 //sortuserName - a function that takes user input and sorts the letters
-// of their name
-function sortUserName() {
-    var userName = window.promt("Hi. Please tell me your name so I can fix it");
-    console.log("userName=",userName);
-    //split string array
+function sortUserName(){
+    let userName = window.promt("What's your name?");
+    console.log(userName);
     var nameArray = userName.split('');
     console.log("nameArray =", nameArray);
     //sort the array
-    var nameArraySort = nameArray.sort();
-    console.log("nameArraySort =", nameArrySort);
-    //join array back to a string
-    var nameSorted = nameArraySort.join('');
-    console.log("namSorted =", nameSorted);
-    //Note that I could have done the above lines a single line:
-    //  userName.toLower().split("").join("")
+    let sortedName = userName.split('').sort().join('');
+    console.log(sortedName);
+    //return sorted name
     return nameSorted;
-}
+};
 
 //output
-document.writeln ("Oh hey, I've fixed your name:",
-    sortUserName(), "</br>")
+document.writeln ("Oh hey, I've fixed your name:",sortedName());
