@@ -19,7 +19,7 @@ body {
     margin: 10px;
     padding: 10px;
     border: solid 1px #741237;
-    background-color: #fffee3;
+    background-color: #fefdf1;
   }
   
   /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -27,13 +27,13 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #741237;
-    background-color: #ffbbd5;
+    background-color: #ffebf3;
   }
   
   .minor-section{
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #741237;
-    background-color: #ffbbd5;
+    background-color: #ffebf3;
   }
   
