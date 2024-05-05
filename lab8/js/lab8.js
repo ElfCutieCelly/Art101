@@ -30,4 +30,4 @@ console.log(" Squareroot of array:", results);
 let mapResults = "Your map results here";
 
 // Use jQuery to select the element by its ID and set to the HTML contnt
-$("#Output").html(mapResults);4
+$("#Output").html(mapResults);
