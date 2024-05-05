@@ -25,3 +25,9 @@ let result = array.map(function(x){
 // should return [1.4142135623730951, 2, 2.449489742783178, 2.8284271247461903, 4.47213595499958, 
 //4.69041575982343, 4.898979485566356, 141.4213562373095, 1549.1933384829667]
 console.log(" Squareroot of array:", results);
+
+//Your map results data
+let mapResults = "Your map results here";
+
+// Use jQuery to select the element by its ID and set to the HTML contnt
+$("#Output").html(mapResults);4
