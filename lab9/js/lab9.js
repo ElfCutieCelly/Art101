@@ -11,12 +11,12 @@ $("#results").append("<button id='button-challenge'>Click Here!</button>");
 //add a click listener to the challenge button
 $("#button-results").click(function(){
     //now add (or subtract) the "special" class to the section
-    $("#results").toggleClass("special");
+    $("#results").toggleClass(".speacial");
 });
 
 $("#problems").append("<button id='button-problems'>Click Me!</button>");
 //add a click listner to the problems button
 $("#button-problems").click(function(){
     //now add (or subtract) the 'special" class to the section
-    $("#problems").toggleClass("special2)");
+    $("#problems").toggleClass(".special2)");
 })
