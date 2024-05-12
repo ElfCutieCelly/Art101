@@ -13,12 +13,6 @@ body {
     word-spacing: 5px;
     font-size: 200%;
   }
-  special {
-    background-color: lavender;
-    border: dotted 50px red;
-    color: pink;
-    font-weight: bold;
-}
   /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
   #content {
     margin: 10px;
@@ -40,8 +34,9 @@ body {
     margin-bottom: 10px;
     border: solid 1px #741237;
     background-color: #ffebf3;
-
-   
-    
   }
   
+  special {
+    background-color: rgb(180, 110, 122);
+    font-family: 'Times New Roman', Times, serif;
+}
