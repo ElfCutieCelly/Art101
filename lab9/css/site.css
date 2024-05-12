@@ -19,6 +19,15 @@
     border-width: 0px;
   }
 
+  .minor-section {
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #ac084c;
+    line-height: 1.5;
+    background-color: beige;
+    border-width: 0px;
+  }
+
   #content {
     background-color: #f4b7d1;
     border-width: 7px;
