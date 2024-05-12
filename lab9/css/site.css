@@ -36,7 +36,7 @@ body {
     background-color: #ffebf3;
   }
   
-  special {
+  .special {
     background-color: rgb(180, 110, 122);
     font-family: 'Times New Roman', Times, serif;
 }
