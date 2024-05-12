@@ -5,16 +5,6 @@
 //Author:celeste Hernandez
 // Date:2024 May 12
 
-
-$("#results").append("<button id='button-challenge'>Click Here!</button>");
-//add a click listener to the challenge button
-$("#button-results").click(function(){
-    console.log("click")
-    //now add (or subtract) the "special" class to the section
-    $("#results").css("special");
-});
-
-
 //
 //add button to challenge section
 $("#results").append("<button id='button-challenge'>Click Here!</button>");
