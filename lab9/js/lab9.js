@@ -15,8 +15,8 @@ $("#button-results").click(function(){
 });
 
 $("#problems").append("<button id='button-problems'>Click Me!</button>");
-//
+//add a click listner to the problems button
 $("#button-problems").click(function(){
-    //
+    //now add (or subtract) the 'special" class to the section
     $("#problems").toggleClass("special2)");
 })
