@@ -13,3 +13,10 @@ $("#button-results").click(function(){
     //now add (or subtract) the "special" class to the section
     $("#results").toggleClass("special");
 });
+
+$("#challenges").append("<button id='button-challenges'>Click Me!</button>");
+//
+$("#button-challenges").click(function(){
+    //
+    $("#challenges").toggleClass("special2)");
+})
