@@ -14,9 +14,9 @@ $("#button-results").click(function(){
     $("#results").toggleClass("special");
 });
 
-$("#challenges").append("<button id='button-challenges'>Click Me!</button>");
+$("#problems").append("<button id='button-challenges'>Click Me!</button>");
 //
-$("#button-challenges").click(function(){
+$("#button-problems").click(function(){
     //
-    $("#challenges").toggleClass("special2)");
+    $("#problems").toggleClass("special2)");
 })
