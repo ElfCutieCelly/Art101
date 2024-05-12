@@ -19,25 +19,32 @@ h1,h2,h3{
   font-size: 200%;
 }
 
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-#content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #dc3676;
-  background-color: #fffee3;
-}
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   padding: 10px;
   margin-bottom: 10px;
-  border: solid 1px #dc3676;
-  background-color: #ffe9f2;
+  border: solid 1px #ffcbeb;
+  background-color: #fdf7dc;
 }
 
-.minor-section{
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #dc3676;
-  background-color: #ffe4ee;
+body {
+  color: #d86392;
+  background-color: #d86392;
+}
+
+.minor-section {
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #ac084c;
+  line-height: 1.5;
+  background-color: beige;
+  border-width: 0px;
+}
+
+#content {
+  background-color: #f4b7d1;
+  border-width: 7px;
+  border-color: #fffce4;
+  border-style: dotted;
+}
+
 }
