@@ -1,0 +1,54 @@
+ /* this css file will only style the homepage of our site */
+
+.my-portrait {
+    margin: 10px;
+    max-width: 500px;
+    width: 25%;
+    padding-left: 400px;
+  }
+  
+  .minor-section {
+    font-family: Helvetica;
+    font-size: 18px;
+    color: rgb(6, 58, 6);
+    line-height: 1.5;
+    background-color: beige;
+    border-width: 0px;
+  }
+  
+  body {
+    color: rgb(6, 58, 6);
+    background-color: rgb(6, 58, 6);
+  }
+  
+  #content {
+    background-color: rgb(255, 227, 86);
+    border-width: 7px;
+    border-color: rgb(255, 255, 255);
+    border-style: dotted;
+  }
+  
+  a {
+    color: rgb(6, 58, 6);
+    font-family: Helvetica;
+  }
+  
+  h2 {
+    font-size: 20px;
+  }
+  
+  h1 {
+    font-size: 30px;
+    font-family: Helvetica;
+  }
+  
+  h3 {
+    font-family: Helvetica;
+  }
+  
+  .major-section {
+    background-color: beige;
+  }
+  
+
+  
