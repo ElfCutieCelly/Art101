@@ -6,7 +6,6 @@
 // Date:2024 May 12
 
 //
-
 // add button to challenge section
 $("#challenge").append("<button id='button-challenge'>Click Me</button>");
 // add a click listener to the challenge button
