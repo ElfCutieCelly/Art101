@@ -1,42 +1,32 @@
-body {
-    background-color: #ffbbd5;
-  }
-  
-  /* we can have rules apply to multiple elements at the same time with commas */
-  h1,h2,h3 {
-    font-family:'Times New Roman';
-  }
-  
-  /* and we can have rules that overlap other rules, both take effect */
-  h1,h2,h3{
-    letter-spacing: 3px;
-    word-spacing: 5px;
-    font-size: 200%;
-  }
-  /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
-  #content {
-    margin: 10px;
+.minor-section {
     padding: 10px;
-    border: solid 1px #741237;
-    background-color: #fefdf1;
+    margin-bottom: 10px;
+    border: solid 1px #ffcbeb;
+    background-color: #fdf7dc;
   }
-  
-  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+  body {
+    color: #ac084c;
+    background-color: #d86392;
+  }
+
   .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #741237;
-    background-color: #ffebf3;
+    font-family: Helvetica;
+    font-size: 15px;
+    color: #ac084c;
+    line-height: 1.5;
+    background-color: beige;
+    border-width: 0px;
   }
-  
-  .minor-section{
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #741237;
-    background-color: #ffebf3;
+
+  #content {
+    background-color: #ac084c;
+    border-width: 7px;
+    border-color: #fffce4;
+    border-style: dotted;
   }
-  
-  .special {
-    background-color: rgb(180, 110, 122);
+
+.special {
+    background-color: rgb(252, 208, 215);
     font-family: 'Times New Roman', Times, serif;
 }
