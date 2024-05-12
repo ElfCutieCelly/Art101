@@ -13,7 +13,7 @@ body {
     word-spacing: 5px;
     font-size: 200%;
   }
-  .special {
+  special {
     background-color: lavender;
     border: dotted 50px red;
     color: pink;
