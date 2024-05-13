@@ -6,11 +6,11 @@
 // Date:2024 May 12
 
 
-$("#the challenges").append("<button id='button-problems'>Click Me!</button>");
+$("#the challenge").append("<button id='button-problems'>Click Me!</button>");
 //add a click listner to the problems button
-$("#button-the challenges").click(function(){
+$("#button-the challenge").click(function(){
     //now add (or subtract) the 'special" class to the section
-    $("#the challenges").toggleClass("special");
+    $("#the challenge").toggleClass("special");
 })
 
 $("#problems").append("<button id='button-problems'>Click Me!</button>");
