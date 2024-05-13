@@ -10,7 +10,7 @@ $("#challenge").append("<button id='button-problems'>Click Me!</button>");
 //add a click listner to the problems button
 $("#button-challenge").click(function(){
     //now add (or subtract) the 'special" class to the section
-    $("#challenge").toggleClass("special");
+    $("#challenge").toggleClass("color");
 })
 
 $("#problems").append("<button id='button-problems'>Click Me!</button>");
