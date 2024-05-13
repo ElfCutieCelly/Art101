@@ -6,11 +6,11 @@
 // Date:2024 May 12
 
 
-$("#challenge").append("<button id='button-problems'>Click Me!</button>");
+$("#challenge").append("<button id='button-problems'>Press Me</button>");
 //add a click listner to the problems button
 $("#button-challenge").click(function(){
     //now add (or subtract) the 'special" class to the section
-    $("#challenge").toggleClass("color");
+    $("#challenge").toggleClass("special");
 })
 
 $("#problems").append("<button id='button-problems'>Click Me!</button>");
@@ -21,7 +21,7 @@ $("#button-problems").click(function(){
 })
 
 
-$("#results").append("<button id='button-problems'>Click Me!</button>");
+$("#results").append("<button id='button-problems'>I Wont Explode</button>");
 //add a click listner to the problems button
 $("#button-results").click(function(){
     //now add (or subtract) the 'special" class to the section
