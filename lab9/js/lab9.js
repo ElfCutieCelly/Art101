@@ -21,7 +21,7 @@ $("#button-problems").click(function(){
 })
 
 
-$("#results").append("<button id='button-problems'>I Wont Explode</button>");
+$("#results").append("<button id='button-results'>I Wont Explode</button>");
 //add a click listner to the problems button
 $("#button-results").click(function(){
     //now add (or subtract) the 'special" class to the section
