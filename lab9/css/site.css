@@ -27,7 +27,7 @@
   }
 
 .special {
-    background-color: aqua;
+    background-color: hwb(180 49% 1%);
     font-family: 'Times New Roman', Times, serif;
 }
 .special2 {
@@ -36,6 +36,6 @@
 }
 
 .special3 {
-    background-color: #ff20a6;
+    background-color: #ffabde;
     font-family: 'Times New Roman', Times, serif;
 }
