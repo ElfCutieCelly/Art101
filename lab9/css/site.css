@@ -26,6 +26,10 @@
     border-style: dotted;
   }
 
+.special {
+    background-color: aqua;
+    font-family: 'Times New Roman', Times, serif;
+}
 .special2 {
     background-color: #7d20ff;
     font-family: 'Times New Roman', Times, serif;
