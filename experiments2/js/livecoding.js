@@ -1,3 +1,5 @@
+console.log('Hello from index.js');
+
 function getNameAndDisplay(){
     // When the button is pushed, prompt the user to input their name with 
     let name = prompt("Name please:");
@@ -6,4 +8,4 @@ function getNameAndDisplay(){
 }
 
 // Attach a click handler to the button within the JS file
-$("#my-button").click()
+$("#my-button").click(getNameAndDisplay)
