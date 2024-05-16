@@ -35,5 +35,5 @@ $("#respond").clikc(function(){
     //get the reply
     let newReply=respond();
     //append as a new div to the output div
-    $("#routput").append('<div id="parent"><div class="reply"><p>'+ newReply +'</p></div></div>');
+    $("#output").append('<div id="parent"><div class="reply"><p>'+ newReply +'</p></div></div>');
 });
