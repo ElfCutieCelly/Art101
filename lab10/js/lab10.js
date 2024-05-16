@@ -16,11 +16,11 @@ function generateSimlish(){
 }
 
 //click listener for button
-$("#yapping-TimmyJ.").click(function(){
+$("#yapping-TimmyJ").click(function(){
     // get new fake dialouge
     const newText=generateSimlish();
     //append a new div to our output div
-    $("#yapping-Timmyj.").append('<div class="text"><p' + newText + '</p></div>');
+    $("#outupt").append('<div class="text"><p' + newText + '</p></div>');
 });
 
 function respond(){
@@ -35,5 +35,5 @@ $("#respond").clikc(function(){
     //get the reply
     let newReply=respond();
     //append as a new div to the output div
-    $("#respond").append('<div id="parent"><div class="reply"><p>'+ newReply +'</p></div></div>');
+    $("#routput").append('<div id="parent"><div class="reply"><p>'+ newReply +'</p></div></div>');
 });
