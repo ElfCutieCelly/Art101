@@ -53,7 +53,7 @@ button {
     text-align: right;
   }
 
-  reply p{
+  .reply p{
     display: inline-block;
     vertical-align: top;
     max-width: 60%;
