@@ -5,13 +5,13 @@
 
 //function to generate random letters
 function generateSimlish(){
-    const text="Hi Im Timmy J. I was born on May 13. Like I just wanna say that like I have zero clue on what I am or what I am even doing here. Oh my mother is not even rea hahahahahaahahah. I like to dance and stuff and like I might end up repeating myself at some point after you click that button for a while ahahahahahaha. I am suppose to be ssaying random stuff. My favorite color is jade and orange, such nice colors.My aunt Emily is really close with my mother. yah she helped name me isnt that greate. Im a pro dance if I do say so. Oh whait Im just suppose to say random shit.... hahahahahahahahah/.... kjadsfih k hdoifkdj idfhgbgva zmzvbchdgw kdfbcnaskhiegf hskjdfhuweg  afhaw djfds ajfkla c ddkjf ac fhjkasdfjd shjkaf ahfkdjdkjsndjkfn djfksa fjd jdschd c chjdkhfj dsncjkdn jkfkesafh  ndsjkc jdkshfudschkjd n dsjkfhk sjcnsdk vuds akdfh kdjshf jkds fjfhkajsdhf jk c djfllkasjf kdjfkldsj fkdjvkldshflsjckdjcklj vkl fdjlfkd jkdj hfdhf vcn udfh kjdnj vudsihf euw Bye"
-    const min= 3;
-    const max= 100;
+    const text = "Nart smee worten dag charba mebbiwaba bloo, gloopy flooz woohoo aw. Chum-cha chum-cha zaroo swaybe ah wanbah gork. Nerk yarma vana, kowlenin grauw, marf na smustle mek hipta lalo ooba badipsa renato. Meepso meepso nono moocha gam. Dag awasa welb frabbit roo afenk kipsy kowlenin dorby hipta zerpa jepsi snoz. Worten hipta gir flurze sugnorg, apper oosh norb frabbit frooby wepsa blousa bweb. Nib gir shushubie evawop, bweb, bloo, disgrobel oosh.";
+    const min = 3;
+    const max = 100;
     const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
-    // Get a random starting index to slice the Lorem Ipsum text
+    // Get a random starting index to slice the Simlish text
     const randStart = Math.floor(Math.random() * (text.length - randLen + 1));
-    // Generate the random Lorem Ipsum-like text
+    // Generate the random Simlish text
     return text.slice(randStart, randStart + randLen);
 }
 
