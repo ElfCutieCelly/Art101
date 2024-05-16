@@ -24,10 +24,18 @@ h2{
     color:#ee8bb9
 }
 
+#output h2 {
+    color:#234a59;
+    text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+  }
+  
 p{
     color:#ffcde4
 }
 
+button {
+    margin-bottom: 5px;
+  }
 
   .text p {
     display: inline-block;
@@ -51,8 +59,26 @@ p{
     margin: 3px;
     padding: 5px 10px;
     border-radius: 15px;
-    background-color: #fffbc5;
-    color: #abeeff;
+    background-color: #ffc5d6;
+    color: #ff266e;
     font-family: sans-serif;
     font-size: 0.8em;
   }
+
+
+/* visited link */
+a:visited {
+    color: #00a884;
+    ;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #4fdebf;
+  }
+  
+  /* selected link */
+  a:active {
+    color:#c1e6de;
+  } 
+  
