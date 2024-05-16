@@ -25,7 +25,7 @@ $("#yapping-TimmyJ.").click(function(){
 
 function respond(){
     //retrive user's reply
-    let reply= window.prompt("Respond to Timmy:");
+    let reply= window.prompt("Type reply:");
     //return reply
     return reply;
 };
