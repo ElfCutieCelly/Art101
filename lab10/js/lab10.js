@@ -5,10 +5,7 @@
 
 //function to generate random letters
 function generateSimlish(){
-    const text="Hi Im Timmy J. I was born on May 13. Like I just wanna say that like I have zero clue on what I am or what I am even doing here. Oh my mother is not even rea hahahahahaahahah. I like to dance and stuff and like I might end up repeating myself at some point after you click that button for a while ahahahahahaha. I am suppose to be ssaying random stuff. "
-    "My favorite color is jade and orange, such nice colors.My aunt Emily is really close with my mother. yah she helped name me isnt that greate. Im a pro dance if I do say so. Oh whait Im just suppose to say random shit.... hahahahahahahahah/.... kjadsfih k hdoifkdj idfhgbgva zmzvbchdgw kdfbcnaskhiegf hskjdfhuweg  afhaw djfds ajfkla c ddkjf ac"
-    "fhjkasdfjd shjkaf ahfkdjdkjsndjkfn djfksa fjd jdschd c chjdkhfj dsncjkdn jkfkesafh  ndsjkc jdkshfudschkjd n dsjkfhk sjcnsdk vuds akdfh kdjshf jkds fjfhkajsdhf jk c"
-    " djfllkasjf kdjfkldsj fkdjvkldshflsjckdjcklj vkl fdjlfkd jkdj hfdhf vcn udfh kjdnj vudsihf euw Bye"
+    const text="Hi Im Timmy J. I was born on May 13. Like I just wanna say that like I have zero clue on what I am or what I am even doing here. Oh my mother is not even rea hahahahahaahahah. I like to dance and stuff and like I might end up repeating myself at some point after you click that button for a while ahahahahahaha. I am suppose to be ssaying random stuff. My favorite color is jade and orange, such nice colors.My aunt Emily is really close with my mother. yah she helped name me isnt that greate. Im a pro dance if I do say so. Oh whait Im just suppose to say random shit.... hahahahahahahahah/.... kjadsfih k hdoifkdj idfhgbgva zmzvbchdgw kdfbcnaskhiegf hskjdfhuweg  afhaw djfds ajfkla c ddkjf ac fhjkasdfjd shjkaf ahfkdjdkjsndjkfn djfksa fjd jdschd c chjdkhfj dsncjkdn jkfkesafh  ndsjkc jdkshfudschkjd n dsjkfhk sjcnsdk vuds akdfh kdjshf jkds fjfhkajsdhf jk c djfllkasjf kdjfkldsj fkdjvkldshflsjckdjcklj vkl fdjlfkd jkdj hfdhf vcn udfh kjdnj vudsihf euw Bye"
     const min= 3;
     const max= 100;
     const randLen = Math.floor(Math.random() * (max - min + 1)) + min;
@@ -23,7 +20,7 @@ $("#yapping-TimmyJ.").click(function(){
     // get new fake dialouge
     const newText=generateSimlish();
     //append a new div to our output div
-    $("#output").append('<div class="text"><p> + newText + </p></div>');
+    $("#output").append('<div class="text"><p' + newText + '</p></div>');
 });
 
 function respond(){
