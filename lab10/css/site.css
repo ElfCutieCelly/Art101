@@ -55,6 +55,7 @@ button {
 
   reply p{
     display: inline-block;
+    vertical-align: top;
     max-width: 60%;
     margin: 3px;
     padding: 5px 10px;
