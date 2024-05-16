@@ -31,7 +31,7 @@ function respond(){
 };
 
 //when button is clicked, run 'respond' funciton
-$("#respond").clikc(function(){
+$("#respond").click(function(){
     //get the reply
     let newReply=respond();
     //append as a new div to the output div
