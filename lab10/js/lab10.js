@@ -16,7 +16,7 @@ function generateSimlish(){
 }
 
 //click listener for button
-$("#yapping-TimmyJ").click(function(){
+$("#yapping-generator").click(function(){
     // get new fake dialouge
     const newText=generateSimlish();
     //append a new div to our output div
