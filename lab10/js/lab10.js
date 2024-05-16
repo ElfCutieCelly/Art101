@@ -17,10 +17,10 @@ function generateSimlish(){
 
 //click listener for button
 $("#yapping-generator").click(function(){
-    // get new fake dialouge
-    const newText=generateSimlish();
-    //append a new div to our output div
-    $("#outupt").append('<div class="text"><p' + newText + '</p></div>');
+    // get new fake dialogue
+    const newText = generateSimlish();
+    // append a new div to our output div
+    $("#output").append('<div class="text"><p>' + newText + '</p></div>');
 });
 
 function respond(){
