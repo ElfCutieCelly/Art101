@@ -6,7 +6,7 @@
 //Author:Celeste Hernandez
 //Created:May 25, 204
 
-maxFactors = 4;
+maxFactors = 3;
 
 outputEl = document.getElementById("output");
 
@@ -20,12 +20,12 @@ function fizzBuzzBoom(maxNums,factorObj){
             //check to see if this mum is a multple of factor
             if (num % factor == 0){
                 // if yes, than add the text to output string
-                outputStr += factorObj [factor];
+                outputStr += factorObj[factor];
             }
         }
         // no if we hace words in outputStr, format it like this " - FizzBuzz!"
-        if (outputStr){
-            outputStr = "-" + outputStr + "!";
+        if (outputStr) {
+            outputStr = " - " + outputStr + "!";
         }
         outputToPage(num.toString() + outputStr);
     }
@@ -38,7 +38,7 @@ function reportError (str){
 document.getElementById ("submit").addEventListener("click", function(){
     let max = document.getElementById ("max").value;
     console.log("max:", max)
-    if (! max ){
+    if (! max ) {
         reportError("You must provide a maximum");
         return;
     }
