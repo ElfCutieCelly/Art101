@@ -1,0 +1,33 @@
+body,#content {
+    background-color: #c3e8fb;
+  }
+  
+  #content {
+    background-color: #034d85;
+    border-width: 7px;
+    border-color: #e4f5ff;
+    border-style: dotted;
+  }
+  
+  .minor-section {
+      padding: 10px;
+      margin-bottom: 10px;
+      border: solid 2px #0e055a;
+      background-color: #d7fce8;
+    }
+  
+  h1 {
+    color: #08123e;
+    text-align: center;
+  }
+  
+  h2 {
+    color:#0f236c;
+  }
+  h3{
+    color:#0f236c;
+  }
+  p{
+    color:#077e5d;
+  }
+  
