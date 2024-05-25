@@ -35,7 +35,7 @@ function reportError (str){
     outputEl.innerHTML = "<div class='error'>" + str + "</div>";
 }
 
-document.getElementById ("submit").addEventListener("click", function(){
+document.getElementById ("submit").addEventListener ("click", function(){
     let max = document.getElementById ("max").value;
     console.log("max:", max)
     if (! max ) {
