@@ -1,0 +1,11 @@
+.flashing{
+    animation: flash 1s infinite;
+}
+@keyframes flash{
+    from{
+        opacity:1;
+    }
+    to{
+        opacity:0;
+    }
+}
