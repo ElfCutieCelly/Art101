@@ -1,16 +1,16 @@
 body {
-    background-color: #920e49;
+    background-color: #e44a8f;
   }
   
   /* we can have rules apply to multiple elements at the same time with commas */
   h1 {
     font-family: sans-serif;
-    color:#310613
+    color:#840027
   }
   
   h2,h3 {
     font-family: sans-serif;
-    color:#b5cfff
+    color:#06368f
   }
   
   /* and we can have rules that overlap other rules, both take effect */
@@ -18,7 +18,7 @@ body {
     letter-spacing: 5px;
     word-spacing: 5px;
     font-size: 200%;
-    background-color: #920e49;
+    background-color: #fffde4;
   
   }
   
@@ -26,6 +26,6 @@ body {
   .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #000000;
-    background-color: #a0a0c0;
+    border: solid 1px #001f7c;
+    background-color: #fffde4;
   }
