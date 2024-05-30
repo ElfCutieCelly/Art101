@@ -1,30 +1,31 @@
-body,#content {
-    background-color: #fbc3e1;
+body {
+    background-color: #920e49;
   }
   
-  #content {
-    background-color: #85034d;
-    border-width: 7px;
-    border-color: #fffce4;
-    border-style: dotted;
-  }
-  
-  .minor-section {
-      padding: 10px;
-      margin-bottom: 10px;
-      border: solid 2px #5a0527;
-      background-color: #feffd4;
-    }
-  
+  /* we can have rules apply to multiple elements at the same time with commas */
   h1 {
-    color: #b11862;
-    text-align: center;
+    font-family: sans-serif;
+    color:#310613
   }
   
-  h2 {
-    color:#7a526b;
+  h2,h3 {
+    font-family: sans-serif;
+    color:#b5cfff
   }
   
-  p{
-    color:#cc348f;
+  /* and we can have rules that overlap other rules, both take effect */
+  h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+    background-color: #920e49;
+  
+  }
+  
+  /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+  .minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #000000;
+    background-color: #a0a0c0;
   }
