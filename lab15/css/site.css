@@ -1,5 +1,5 @@
 body {
-    background-color: #e44a8f;
+    background-color: #e8bcd0;
   }
   
   /* we can have rules apply to multiple elements at the same time with commas */
@@ -10,7 +10,7 @@ body {
   
   h2,h3 {
     font-family: sans-serif;
-    color:#06368f
+    color:#840027
   }
   
   /* and we can have rules that overlap other rules, both take effect */
