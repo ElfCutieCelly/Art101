@@ -33,8 +33,15 @@ body {
   p {
     color:#840027
   }
-  .output{
-    padding:10px;
-    margin-bottom: 10px;
-    background-color: #fffde4;
+
+  main img {
+    width: inherit !important;
+    max-width: 100%;
   }
+  
+  #output {
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+  }
+  
