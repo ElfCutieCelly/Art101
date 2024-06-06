@@ -40,7 +40,7 @@ body {
   }
   
   .output {
-    padding: 150px;
+    padding: 300px;
     text-align: center;
     background-image: url("https://imgs.xkcd.com/comics/woodpecker.png");
   }
