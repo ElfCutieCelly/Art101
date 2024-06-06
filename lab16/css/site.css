@@ -39,9 +39,9 @@ body {
     max-width: 100%;
   }
   
-  #output {
+  output {
     padding: 30px;
     text-align: center;
-    background-color: white;
+    background-image: url("https://imgs.xkcd.com/comics/woodpecker.png");
   }
   
