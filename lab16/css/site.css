@@ -29,3 +29,12 @@ body {
     border: solid 1px #001f7c;
     background-color: #fffde4;
   }
+
+  p {
+    color:#840027
+  }
+  .output{
+    padding:10px;
+    margin-bottom: 10px;
+    background-color: #fffde4;
+  }
