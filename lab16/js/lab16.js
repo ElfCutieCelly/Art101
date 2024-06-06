@@ -2,12 +2,12 @@
 //June 6
 
 
-var URL = "https://xkcd.com/info.0.json ";
+var URL = "";
 
 
 
-var URLpre = "https://xkcd.com/json.html";
-var URLpost ="https://xkcd.com/614/info.0.json";
+var URLpre = "";
+var URLpost ="";
 
  // Using the core $.ajax() method
  $.ajax({
