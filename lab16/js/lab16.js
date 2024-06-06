@@ -12,7 +12,7 @@ var URLpost ="https://xkcd.com/614/info.0.json";
  // Using the core $.ajax() method
  $.ajax({
     // The URL for the request (Efrom the api docs)
-    url: "https://xkcd.com/614/info.0.json",
+    url:URL, 
     // the data to send (will be converte to a query string)
     data: {
         //here is where any data required by the api 
